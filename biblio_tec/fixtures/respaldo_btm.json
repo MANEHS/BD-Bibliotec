@@ -1,0 +1,1581 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-11-07T00:40:14.424Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "Administrador",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-11-07T00:41:20.299Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "Administrador",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"Superuser status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-11-07T00:41:52.523Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "Administrador",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-11-07T00:42:22.687Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "Bibliotecario",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-11-07T00:44:18.353Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "Bibliotecario",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\", \"User permissions\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-11-07T00:44:39.801Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "4",
+        "object_repr": "Usuario",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-11-07T00:50:19.456Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "4",
+        "object_repr": "Usuario",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-11-07T00:50:31.715Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "4",
+        "object_repr": "Usuario",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-11-07T00:50:40.122Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "4",
+        "object_repr": "Usuario",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-11-07T00:55:20.298Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "Administrador",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"User permissions\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-11-07T00:57:50.877Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "Bibliotecario",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-11-07T00:58:05.593Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "4",
+        "object_repr": "Usuario",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2024-11-09T03:27:56.482Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Cien anyos de soledad",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Editorial\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add autor",
+        "content_type": 7,
+        "codename": "add_autor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change autor",
+        "content_type": 7,
+        "codename": "change_autor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete autor",
+        "content_type": 7,
+        "codename": "delete_autor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view autor",
+        "content_type": 7,
+        "codename": "view_autor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add autor libro",
+        "content_type": 8,
+        "codename": "add_autorlibro"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change autor libro",
+        "content_type": 8,
+        "codename": "change_autorlibro"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete autor libro",
+        "content_type": 8,
+        "codename": "delete_autorlibro"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view autor libro",
+        "content_type": 8,
+        "codename": "view_autorlibro"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add genero",
+        "content_type": 9,
+        "codename": "add_genero"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change genero",
+        "content_type": 9,
+        "codename": "change_genero"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete genero",
+        "content_type": 9,
+        "codename": "delete_genero"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view genero",
+        "content_type": 9,
+        "codename": "view_genero"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add libro",
+        "content_type": 10,
+        "codename": "add_libro"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change libro",
+        "content_type": 10,
+        "codename": "change_libro"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete libro",
+        "content_type": 10,
+        "codename": "delete_libro"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view libro",
+        "content_type": 10,
+        "codename": "view_libro"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add libro genero",
+        "content_type": 11,
+        "codename": "add_librogenero"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change libro genero",
+        "content_type": 11,
+        "codename": "change_librogenero"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete libro genero",
+        "content_type": 11,
+        "codename": "delete_librogenero"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view libro genero",
+        "content_type": 11,
+        "codename": "view_librogenero"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add prestamo",
+        "content_type": 12,
+        "codename": "add_prestamo"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change prestamo",
+        "content_type": 12,
+        "codename": "change_prestamo"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete prestamo",
+        "content_type": 12,
+        "codename": "delete_prestamo"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view prestamo",
+        "content_type": 12,
+        "codename": "view_prestamo"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add usuario",
+        "content_type": 13,
+        "codename": "add_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change usuario",
+        "content_type": 13,
+        "codename": "change_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete usuario",
+        "content_type": 13,
+        "codename": "delete_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view usuario",
+        "content_type": 13,
+        "codename": "view_usuario"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$Tjds7DUQx2993B4JK859oc$TH6sCO8EcWYyvS3YxMLzc8C5HJ2mRqRwhr92yjIwAL8=",
+        "last_login": "2024-11-09T04:35:04.302Z",
+        "is_superuser": true,
+        "username": "gustavo",
+        "first_name": "",
+        "last_name": "",
+        "email": "guztavodelacruz@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-11-07T00:29:52.795Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$1g4jiwpndppjzRKyt5WNlw$/GOyjEJh/2rwuk0SjTKdnxSOs0wQxTpsPnj3cB2IZBI=",
+        "last_login": "2024-11-07T01:03:25.312Z",
+        "is_superuser": true,
+        "username": "Administrador",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-11-07T00:40:13Z",
+        "groups": [],
+        "user_permissions": [
+            1,
+            2,
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            5,
+            6,
+            7,
+            8,
+            13,
+            14,
+            15,
+            16,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+        ]
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$l3pxUh0fNjjdUkRRqTPUeW$JCjXfbnoknz53vuWqK2b6znwF7k7SxyhhFl3YjjVs94=",
+        "last_login": "2024-11-07T01:03:54.139Z",
+        "is_superuser": false,
+        "username": "Bibliotecario",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-11-07T00:42:22Z",
+        "groups": [],
+        "user_permissions": [
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52
+        ]
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$3FlnnjG6UHmwAYex2zZznt$UyRC4glhb2QHXGHdxhBwHGPjXZQRGlE9M7U1goKMBi4=",
+        "last_login": "2024-11-07T01:04:23.354Z",
+        "is_superuser": false,
+        "username": "Usuario",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-11-07T00:44:39Z",
+        "groups": [],
+        "user_permissions": [
+            28,
+            32,
+            36,
+            40,
+            44
+        ]
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "biblio_tec",
+        "model": "autor"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "biblio_tec",
+        "model": "autorlibro"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "biblio_tec",
+        "model": "genero"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "biblio_tec",
+        "model": "libro"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "biblio_tec",
+        "model": "librogenero"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "biblio_tec",
+        "model": "prestamo"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "biblio_tec",
+        "model": "usuario"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "zbhlzk6slvmk4gkktafpxvnxr6djygs4",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAUBf-FtSFQysule7-BcB-VqoGktCvjv2uTLnR7Zua8RMrbWtLWeUkzibPQ4vS7QcYH1x3QPddbk9jquswgd0UetMtrI35eDvfvoORevvVgojXMKiJ7R5E4gsmTJRemoIEDRtRGEZDS1lhLqDwY74YwKhVwJPH-APCTN9w:1t9dBg:OE55GZoxthC-Ftvy2gDeiNcyae6RS7FgGqRinCZNL34",
+        "expire_date": "2024-11-23T04:35:04.306Z"
+    }
+},
+{
+    "model": "biblio_tec.autor",
+    "pk": 1,
+    "fields": {
+        "nom_autor": "Gabriel",
+        "apellido_p": "Garcia",
+        "apellido_m": "Marquez",
+        "fecha_nacimiento": "1927-03-06",
+        "fecha_muerte": "2014-04-17",
+        "nacionalidad": "Colombiana"
+    }
+},
+{
+    "model": "biblio_tec.autor",
+    "pk": 2,
+    "fields": {
+        "nom_autor": "Isabel",
+        "apellido_p": "Allende",
+        "apellido_m": "",
+        "fecha_nacimiento": "1942-08-02",
+        "fecha_muerte": null,
+        "nacionalidad": "Chilena"
+    }
+},
+{
+    "model": "biblio_tec.autor",
+    "pk": 3,
+    "fields": {
+        "nom_autor": "Julio",
+        "apellido_p": "Cortazar",
+        "apellido_m": "",
+        "fecha_nacimiento": "1914-08-26",
+        "fecha_muerte": "1984-02-12",
+        "nacionalidad": "Argentina"
+    }
+},
+{
+    "model": "biblio_tec.autor",
+    "pk": 4,
+    "fields": {
+        "nom_autor": "Mario",
+        "apellido_p": "Vargas",
+        "apellido_m": "Llosa",
+        "fecha_nacimiento": "1936-03-28",
+        "fecha_muerte": null,
+        "nacionalidad": "Peruana"
+    }
+},
+{
+    "model": "biblio_tec.autor",
+    "pk": 5,
+    "fields": {
+        "nom_autor": "Octavio",
+        "apellido_p": "Paz",
+        "apellido_m": "",
+        "fecha_nacimiento": "1914-03-31",
+        "fecha_muerte": "1998-04-19",
+        "nacionalidad": "Mexicana"
+    }
+},
+{
+    "model": "biblio_tec.autor",
+    "pk": 6,
+    "fields": {
+        "nom_autor": "Pablo",
+        "apellido_p": "Neruda",
+        "apellido_m": "",
+        "fecha_nacimiento": "1904-07-12",
+        "fecha_muerte": "1973-09-23",
+        "nacionalidad": "Chilena"
+    }
+},
+{
+    "model": "biblio_tec.autor",
+    "pk": 7,
+    "fields": {
+        "nom_autor": "Jorge Luis",
+        "apellido_p": "Borges",
+        "apellido_m": "",
+        "fecha_nacimiento": "1899-08-24",
+        "fecha_muerte": "1986-06-14",
+        "nacionalidad": "Argentina"
+    }
+},
+{
+    "model": "biblio_tec.autor",
+    "pk": 8,
+    "fields": {
+        "nom_autor": "Laura",
+        "apellido_p": "Esquivel",
+        "apellido_m": "",
+        "fecha_nacimiento": "1950-09-30",
+        "fecha_muerte": null,
+        "nacionalidad": "Mexicana"
+    }
+},
+{
+    "model": "biblio_tec.autor",
+    "pk": 9,
+    "fields": {
+        "nom_autor": "Carlos",
+        "apellido_p": "Fuentes",
+        "apellido_m": "",
+        "fecha_nacimiento": "1928-11-11",
+        "fecha_muerte": "2012-05-15",
+        "nacionalidad": "Mexicana"
+    }
+},
+{
+    "model": "biblio_tec.autor",
+    "pk": 10,
+    "fields": {
+        "nom_autor": "Miguel",
+        "apellido_p": "de Cervantes",
+        "apellido_m": "Saavedra",
+        "fecha_nacimiento": "1547-09-29",
+        "fecha_muerte": "1616-04-23",
+        "nacionalidad": "Espanyola"
+    }
+},
+{
+    "model": "biblio_tec.autorlibro",
+    "pk": 1,
+    "fields": {
+        "id_libro": 1
+    }
+},
+{
+    "model": "biblio_tec.autorlibro",
+    "pk": 2,
+    "fields": {
+        "id_libro": 2
+    }
+},
+{
+    "model": "biblio_tec.autorlibro",
+    "pk": 3,
+    "fields": {
+        "id_libro": 3
+    }
+},
+{
+    "model": "biblio_tec.autorlibro",
+    "pk": 4,
+    "fields": {
+        "id_libro": 4
+    }
+},
+{
+    "model": "biblio_tec.autorlibro",
+    "pk": 5,
+    "fields": {
+        "id_libro": 5
+    }
+},
+{
+    "model": "biblio_tec.autorlibro",
+    "pk": 6,
+    "fields": {
+        "id_libro": 6
+    }
+},
+{
+    "model": "biblio_tec.autorlibro",
+    "pk": 7,
+    "fields": {
+        "id_libro": 7
+    }
+},
+{
+    "model": "biblio_tec.autorlibro",
+    "pk": 8,
+    "fields": {
+        "id_libro": 8
+    }
+},
+{
+    "model": "biblio_tec.autorlibro",
+    "pk": 9,
+    "fields": {
+        "id_libro": 9
+    }
+},
+{
+    "model": "biblio_tec.autorlibro",
+    "pk": 10,
+    "fields": {
+        "id_libro": 10
+    }
+},
+{
+    "model": "biblio_tec.genero",
+    "pk": 1,
+    "fields": {
+        "nombre_genero": "Novela"
+    }
+},
+{
+    "model": "biblio_tec.genero",
+    "pk": 2,
+    "fields": {
+        "nombre_genero": "Poesia"
+    }
+},
+{
+    "model": "biblio_tec.genero",
+    "pk": 3,
+    "fields": {
+        "nombre_genero": "Ensayo"
+    }
+},
+{
+    "model": "biblio_tec.genero",
+    "pk": 4,
+    "fields": {
+        "nombre_genero": "Teatro"
+    }
+},
+{
+    "model": "biblio_tec.genero",
+    "pk": 5,
+    "fields": {
+        "nombre_genero": "Cuento"
+    }
+},
+{
+    "model": "biblio_tec.genero",
+    "pk": 6,
+    "fields": {
+        "nombre_genero": "Biografia"
+    }
+},
+{
+    "model": "biblio_tec.genero",
+    "pk": 7,
+    "fields": {
+        "nombre_genero": "Autobiografia"
+    }
+},
+{
+    "model": "biblio_tec.genero",
+    "pk": 8,
+    "fields": {
+        "nombre_genero": "Fabula"
+    }
+},
+{
+    "model": "biblio_tec.genero",
+    "pk": 9,
+    "fields": {
+        "nombre_genero": "Cronica"
+    }
+},
+{
+    "model": "biblio_tec.genero",
+    "pk": 10,
+    "fields": {
+        "nombre_genero": "Periodismo Literario"
+    }
+},
+{
+    "model": "biblio_tec.libro",
+    "pk": 1,
+    "fields": {
+        "nomb_libro": "Cien anyos de soledad",
+        "editorial": 1,
+        "isbn": "978-0307474728",
+        "num_paginas": 471
+    }
+},
+{
+    "model": "biblio_tec.libro",
+    "pk": 2,
+    "fields": {
+        "nomb_libro": "La casa de los espiritus",
+        "editorial": 2,
+        "isbn": "978-0553383805",
+        "num_paginas": 433
+    }
+},
+{
+    "model": "biblio_tec.libro",
+    "pk": 3,
+    "fields": {
+        "nomb_libro": "Rayuela",
+        "editorial": 3,
+        "isbn": "978-0099593965",
+        "num_paginas": 576
+    }
+},
+{
+    "model": "biblio_tec.libro",
+    "pk": 4,
+    "fields": {
+        "nomb_libro": "La ciudad y los perros",
+        "editorial": 4,
+        "isbn": "978-8433970987",
+        "num_paginas": 432
+    }
+},
+{
+    "model": "biblio_tec.libro",
+    "pk": 5,
+    "fields": {
+        "nomb_libro": "El laberinto de la soledad",
+        "editorial": 5,
+        "isbn": "978-0307387438",
+        "num_paginas": 398
+    }
+},
+{
+    "model": "biblio_tec.libro",
+    "pk": 6,
+    "fields": {
+        "nomb_libro": "Veinte poemas de amor y una cancion dese",
+        "editorial": 6,
+        "isbn": "978-6074000533",
+        "num_paginas": 70
+    }
+},
+{
+    "model": "biblio_tec.libro",
+    "pk": 7,
+    "fields": {
+        "nomb_libro": "Ficciones",
+        "editorial": 7,
+        "isbn": "978-8426403184",
+        "num_paginas": 248
+    }
+},
+{
+    "model": "biblio_tec.libro",
+    "pk": 8,
+    "fields": {
+        "nomb_libro": "Como agua para chocolate",
+        "editorial": 8,
+        "isbn": "978-0385420174",
+        "num_paginas": 224
+    }
+},
+{
+    "model": "biblio_tec.libro",
+    "pk": 9,
+    "fields": {
+        "nomb_libro": "Terra Nostra",
+        "editorial": 9,
+        "isbn": "978-0374522838",
+        "num_paginas": 803
+    }
+},
+{
+    "model": "biblio_tec.libro",
+    "pk": 10,
+    "fields": {
+        "nomb_libro": "Don Quijote de la Mancha",
+        "editorial": 10,
+        "isbn": "978-8491051149",
+        "num_paginas": 1056
+    }
+},
+{
+    "model": "biblio_tec.librogenero",
+    "pk": 1,
+    "fields": {
+        "id_genero": 1
+    }
+},
+{
+    "model": "biblio_tec.librogenero",
+    "pk": 2,
+    "fields": {
+        "id_genero": 1
+    }
+},
+{
+    "model": "biblio_tec.librogenero",
+    "pk": 3,
+    "fields": {
+        "id_genero": 1
+    }
+},
+{
+    "model": "biblio_tec.librogenero",
+    "pk": 4,
+    "fields": {
+        "id_genero": 1
+    }
+},
+{
+    "model": "biblio_tec.librogenero",
+    "pk": 5,
+    "fields": {
+        "id_genero": 3
+    }
+},
+{
+    "model": "biblio_tec.librogenero",
+    "pk": 6,
+    "fields": {
+        "id_genero": 2
+    }
+},
+{
+    "model": "biblio_tec.librogenero",
+    "pk": 7,
+    "fields": {
+        "id_genero": 2
+    }
+},
+{
+    "model": "biblio_tec.librogenero",
+    "pk": 8,
+    "fields": {
+        "id_genero": 1
+    }
+},
+{
+    "model": "biblio_tec.librogenero",
+    "pk": 9,
+    "fields": {
+        "id_genero": 1
+    }
+},
+{
+    "model": "biblio_tec.librogenero",
+    "pk": 10,
+    "fields": {
+        "id_genero": 1
+    }
+},
+{
+    "model": "biblio_tec.prestamo",
+    "pk": 1,
+    "fields": {
+        "fecha_prestamo": "2024-10-01",
+        "dias_prestamo": 7,
+        "fecha_devuelto": "2024-10-08",
+        "estado": "Devuelto",
+        "id_usuario": 1,
+        "id_libro": 1
+    }
+},
+{
+    "model": "biblio_tec.prestamo",
+    "pk": 2,
+    "fields": {
+        "fecha_prestamo": "2024-10-05",
+        "dias_prestamo": 10,
+        "fecha_devuelto": "2024-10-15",
+        "estado": "Devuelto",
+        "id_usuario": 2,
+        "id_libro": 2
+    }
+},
+{
+    "model": "biblio_tec.prestamo",
+    "pk": 3,
+    "fields": {
+        "fecha_prestamo": "2024-10-10",
+        "dias_prestamo": 14,
+        "fecha_devuelto": "2024-10-24",
+        "estado": "Devuelto",
+        "id_usuario": 3,
+        "id_libro": 3
+    }
+},
+{
+    "model": "biblio_tec.prestamo",
+    "pk": 4,
+    "fields": {
+        "fecha_prestamo": "2024-10-12",
+        "dias_prestamo": 5,
+        "fecha_devuelto": "2024-10-17",
+        "estado": "Devuelto",
+        "id_usuario": 4,
+        "id_libro": 4
+    }
+},
+{
+    "model": "biblio_tec.prestamo",
+    "pk": 5,
+    "fields": {
+        "fecha_prestamo": "2024-10-15",
+        "dias_prestamo": 7,
+        "fecha_devuelto": "2024-10-22",
+        "estado": "Devuelto",
+        "id_usuario": 5,
+        "id_libro": 5
+    }
+},
+{
+    "model": "biblio_tec.prestamo",
+    "pk": 6,
+    "fields": {
+        "fecha_prestamo": "2024-10-20",
+        "dias_prestamo": 15,
+        "fecha_devuelto": "2024-11-04",
+        "estado": "Devuelto",
+        "id_usuario": 6,
+        "id_libro": 6
+    }
+},
+{
+    "model": "biblio_tec.prestamo",
+    "pk": 7,
+    "fields": {
+        "fecha_prestamo": "2024-10-22",
+        "dias_prestamo": 8,
+        "fecha_devuelto": "2024-10-30",
+        "estado": "Devuelto",
+        "id_usuario": 7,
+        "id_libro": 7
+    }
+},
+{
+    "model": "biblio_tec.prestamo",
+    "pk": 8,
+    "fields": {
+        "fecha_prestamo": "2024-10-25",
+        "dias_prestamo": 12,
+        "fecha_devuelto": "2024-11-06",
+        "estado": "Devuelto",
+        "id_usuario": 8,
+        "id_libro": 8
+    }
+},
+{
+    "model": "biblio_tec.prestamo",
+    "pk": 9,
+    "fields": {
+        "fecha_prestamo": "2024-10-28",
+        "dias_prestamo": 6,
+        "fecha_devuelto": "2024-11-03",
+        "estado": "Devuelto",
+        "id_usuario": 9,
+        "id_libro": 9
+    }
+},
+{
+    "model": "biblio_tec.prestamo",
+    "pk": 10,
+    "fields": {
+        "fecha_prestamo": "2024-10-30",
+        "dias_prestamo": 9,
+        "fecha_devuelto": "2024-11-08",
+        "estado": "Devuelto",
+        "id_usuario": 10,
+        "id_libro": 10
+    }
+},
+{
+    "model": "biblio_tec.usuario",
+    "pk": 1,
+    "fields": {
+        "direccion": "Calle 1 #123",
+        "correo": "juan.perez@example.com",
+        "nom": "Juan",
+        "ap_map": "Perez",
+        "ap_pat": "Garcia",
+        "telefono": "5512345678"
+    }
+},
+{
+    "model": "biblio_tec.usuario",
+    "pk": 2,
+    "fields": {
+        "direccion": "Av. Central #45",
+        "correo": "maria.lopez@example.com",
+        "nom": "Maria",
+        "ap_map": "Lopez",
+        "ap_pat": "Martinez",
+        "telefono": "5523456789"
+    }
+},
+{
+    "model": "biblio_tec.usuario",
+    "pk": 3,
+    "fields": {
+        "direccion": "Calle Norte #567",
+        "correo": "carlos.mendez@example.com",
+        "nom": "Carlos",
+        "ap_map": "Mendez",
+        "ap_pat": "Hernandez",
+        "telefono": "5534567890"
+    }
+},
+{
+    "model": "biblio_tec.usuario",
+    "pk": 4,
+    "fields": {
+        "direccion": "Col. Centro #789",
+        "correo": "ana.ramirez@example.com",
+        "nom": "Ana",
+        "ap_map": "Ramirez",
+        "ap_pat": "Sanchez",
+        "telefono": "5545678901"
+    }
+},
+{
+    "model": "biblio_tec.usuario",
+    "pk": 5,
+    "fields": {
+        "direccion": "Zona Sur #101",
+        "correo": "luis.gonzalez@example.com",
+        "nom": "Luis",
+        "ap_map": "Gonzalez",
+        "ap_pat": "Diaz",
+        "telefono": "5556789012"
+    }
+},
+{
+    "model": "biblio_tec.usuario",
+    "pk": 6,
+    "fields": {
+        "direccion": "Boulevard 15 #202",
+        "correo": "laura.rodriguez@example.com",
+        "nom": "Laura",
+        "ap_map": "Rodriguez",
+        "ap_pat": "Flores",
+        "telefono": "5567890123"
+    }
+},
+{
+    "model": "biblio_tec.usuario",
+    "pk": 7,
+    "fields": {
+        "direccion": "Av. del Sol #303",
+        "correo": "jorge.fernandez@example.com",
+        "nom": "Jorge",
+        "ap_map": "Fernandez",
+        "ap_pat": "Torres",
+        "telefono": "5578901234"
+    }
+},
+{
+    "model": "biblio_tec.usuario",
+    "pk": 8,
+    "fields": {
+        "direccion": "Pasaje 12 #404",
+        "correo": "sofia.garcia@example.com",
+        "nom": "Sofia",
+        "ap_map": "Garcia",
+        "ap_pat": "Lopez",
+        "telefono": "5589012345"
+    }
+},
+{
+    "model": "biblio_tec.usuario",
+    "pk": 9,
+    "fields": {
+        "direccion": "Callejon 9 #505",
+        "correo": "pedro.martinez@example.com",
+        "nom": "Pedro",
+        "ap_map": "Martinez",
+        "ap_pat": "Gomez",
+        "telefono": "5590123456"
+    }
+},
+{
+    "model": "biblio_tec.usuario",
+    "pk": 10,
+    "fields": {
+        "direccion": "Sector Este #606",
+        "correo": "angelica.rivera@example.com",
+        "nom": "Angelica",
+        "ap_map": "Rivera",
+        "ap_pat": "Perez",
+        "telefono": "5501234567"
+    }
+}
+]

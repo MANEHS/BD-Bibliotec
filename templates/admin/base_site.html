@@ -1,0 +1,12 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{{ title }} | Index
+{% endblock %} 
+{% load static %} 
+{% block branding %} 
+    <img src='{% static "img/btm.png" %}' width="100" height="100" alt="btm">
+    <p style="font-family: 'Times New Roman', times, serif; font-size: 19px; letter-spacing: 1px; margin: 40px 0; text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 40px rgb(255, 255, 255), 0 0 80px rgb(255, 255, 255); transition: text-shadow 0.3s ease-in-out;">
+        Sistema BTM
+    </p> 
+{% endblock %} 
+{% block nav-global %}{% endblock %} 

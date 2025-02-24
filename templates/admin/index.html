@@ -1,0 +1,9 @@
+{% extends "admin/base_site.html" %}
+
+{% block content %}
+<h1>Acciones del Sistema</h1>
+<a href="{% url 'admin:backup-db' %}" class="button">Respaldar Base de Datos</a>
+<a href="{% url 'admin:restore-db' %}" class="button">Restaurar Base de Datos</a>
+<a href="{% url 'registrar-libro' %}" class="button">Registrar Libro</a>
+<a href="{% url 'realizar-prestamo' %}" class="button">Realizar Préstamo</a>
+{% endblock %}
